@@ -1,0 +1,6 @@
+Server = https://mirror.ubrco.de/archlinux/$repo/os/$arch
+Server = https://mirror.michael-eckert.net/archlinux/$repo/os/$arch
+Server = https://archlinux.eu.mirror.zoidplex.net/$repo/os/$arch
+Server = https://mirror.bethselamin.de/$repo/os/$arch
+Server = https://mirror.f4st.host/archlinux/$repo/os/$arch
+Server = https://mirror.fra10.de.leaseweb.net/archlinux/$repo/os/$arch
