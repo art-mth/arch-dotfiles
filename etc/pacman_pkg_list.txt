@@ -1,5 +1,6 @@
 bash
 bzip2
+chromium
 coreutils
 cryptsetup
 device-mapper
@@ -16,6 +17,7 @@ gettext
 git
 glibc
 grep
+gvim
 gzip
 i3-wm
 i3blocks
@@ -45,6 +47,7 @@ perl
 procps-ng
 psmisc
 reiserfsprogs
+rxvt-unicode
 s-nail
 sed
 shadow
@@ -64,3 +67,4 @@ xf86-video-vesa
 xfsprogs
 xorg-server
 xorg-xinit
+zathura-pdf-mupdf
