@@ -1,0 +1,17 @@
+# /etc/systemd/system/i3lock.service
+# When a sleep action is run (suspend, hibernate, hybrid-sleep)
+# we want to lock the screen with i3lock.
+# run "systemctl enable i3lock.service" to enable this unit.
+[Unit]
+Description=Lock the screen on sleep actions (suspend, hibernate, hybrid-sleep)
+Before=sleep.target
+
+[Service]
+User=arthur
+Type=forking
+Environment=DISPLAY=:0
+ExecStart=/usr/bin/i3lock --color #101218
+ExecStartPost=/usr/bin/sleep 1
+
+[Install]
+WantedBy=sleep.target
