@@ -1,3 +1,5 @@
+alsa-utils
+arc-gtk-theme
 bash
 bzip2
 chromium
@@ -7,6 +9,7 @@ device-mapper
 dhcpcd
 diffutils
 e2fsprogs
+efibootmgr
 fakeroot
 file
 filesystem
@@ -39,6 +42,8 @@ man-pages
 mdadm
 nano
 netctl
+openssh
+otf-font-awesome
 pacman
 parted
 pciutils
@@ -46,6 +51,7 @@ pcmciautils
 perl
 procps-ng
 psmisc
+pulseaudio
 reiserfsprogs
 rxvt-unicode
 s-nail
@@ -57,6 +63,9 @@ systemd-sysvcompat
 tar
 texinfo
 ttf-dejavu
+ttf-fira-mono
+ttf-fira-sans
+urxvt-perls
 usbutils
 util-linux
 vi
@@ -66,5 +75,7 @@ xf86-video-intel
 xf86-video-vesa
 xfsprogs
 xorg-server
+xorg-xbacklight
 xorg-xinit
 zathura-pdf-mupdf
+zsh
