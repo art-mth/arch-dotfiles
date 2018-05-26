@@ -1,0 +1,45 @@
+# ~/.Xresources
+# Used for setting configuration parameters for X client applications.
+
+#URxvt
+
+# List perl extensions to load.
+URxvt.perl-ext:
+URxvt.perl-ext-common: keyboard-select,selection-to-clipboard
+
+# keyboard-select
+# Can be used to copy text from the console with vim like features.
+# M = Alt
+URxvt.keysym.M-s: perl:keyboard-select:activate
+URxvt.keysym.M-r: perl:keyboard-select:search
+
+# Disable iso input key combination.
+URxvt*iso14755: False
+
+# Set a nicer font.
+URxvt.font: xft:Fira Mono:style=Regular:size=13
+# Disable the scroll bar.
+URxvt.scrollBar: false
+
+# Set some nice colors.
+URxvt*background: #101218
+URxvt*foreground: #d1d4e0
+URxvt*cursorColor: #d1d4e0
+URxvt*highlightColor: #252936
+URxvt*highlightTextColor: #c0c5ce
+URxvt*color0: #101218
+URxvt*color1: #ee829f
+URxvt*color2: #a5ffe1
+URxvt*color3: #feffcc
+URxvt*color4: #97bbf7
+URxvt*color5: #c0b7f9
+URxvt*color6: #97e0ff
+URxvt*color7: #d1d4e0
+URxvt*color8: #7780a1
+URxvt*color9: #ee829f
+URxvt*color10: #a5ffe1
+URxvt*color11: #ffefcc
+URxvt*color12: #97bbf7
+URxvt*color13: #c0b7f9
+URxvt*color14: #97e0ff
+URxvt*color15: #ffffff
