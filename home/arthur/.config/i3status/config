@@ -1,0 +1,36 @@
+# ~/.config/i3status/config
+# i3status configuration file.
+
+general {
+        colors = true
+        interval = 5 
+}
+
+order += "volume master"
+order += "disk /"
+order += "wireless _first_"
+order += "battery 0"
+order += "tztime local"
+
+wireless _first_ {
+        format_up = " %quality at %essid"
+        format_down = ""
+}
+
+battery 0 {
+        format = " %percentage"
+}
+
+tztime local {
+        format = "%d-%m-%Y %H:%M:%S"
+}
+
+disk "/" {
+        format = " %avail"
+}
+
+volume master {
+        format = " %volume"
+        format_muted = " muted (%volume)"
+        device = "pulse"
+}
