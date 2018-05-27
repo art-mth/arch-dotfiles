@@ -6,6 +6,9 @@
 # Set the Super key as mod key.
 set $mod Mod4
 
+# Set a font.
+font pango:Fira Sans:style=Regular, Awesome 9
+
 # Define some colors to be used.
 set $base00 #101218
 set $base01 #1f222d
@@ -203,9 +206,6 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 ############################ Style Configuration ###############################
-
-# Set a font.
-font pango:Fira Sans:style=Regular, Awesome 9
 
 # Define window colours.
 #                       border  background text    indicator
