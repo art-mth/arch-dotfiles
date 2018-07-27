@@ -2,7 +2,7 @@
 # i3status configuration file.
 
 general {
-        colors = true
+        colors = false
         interval = 5 
 }
 
