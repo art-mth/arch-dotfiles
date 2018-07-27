@@ -17,6 +17,7 @@ findutils
 gawk
 gcc-libs
 gettext
+ghostscript
 git
 glibc
 grep
@@ -45,6 +46,7 @@ netctl
 openssh
 otf-font-awesome
 pacman
+pacman-contrib
 parted
 pciutils
 pcmciautils
@@ -65,6 +67,7 @@ texinfo
 ttf-dejavu
 ttf-fira-mono
 ttf-fira-sans
+unzip
 urxvt-perls
 usbutils
 util-linux
