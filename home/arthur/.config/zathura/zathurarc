@@ -1,0 +1,17 @@
+# ~/.config/zathura/zathurarc
+
+set default-bg "#101218" #dark_bg
+set default-fg "#d1d4e0" #middle_fg
+
+set statusbar-bg "#101218" #dark_bg
+set statusbar-fg "#d1d4e0" #middle_fg
+
+set inputbar-bg "#101218" #dark_bg
+set inputbar-fg "#d1d4e0" #middle_fg
+
+set completion-bg "#101218" #dark_bg
+set completion-fg "#d1d4e0" #middle_fg
+
+set completion-highlight-bg "#101218" #dark_bg
+set completion-highlight-fg "#a5ffe1" #green
+
