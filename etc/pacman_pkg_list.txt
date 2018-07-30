@@ -24,7 +24,6 @@ grep
 gvim
 gzip
 i3-wm
-i3blocks
 i3lock
 i3status
 inetutils
@@ -43,6 +42,7 @@ man-pages
 mdadm
 nano
 netctl
+noto-fonts
 openssh
 otf-font-awesome
 pacman
@@ -67,6 +67,7 @@ texinfo
 ttf-dejavu
 ttf-fira-mono
 ttf-fira-sans
+ttf-inconsolata
 unzip
 urxvt-perls
 usbutils
@@ -80,5 +81,6 @@ xfsprogs
 xorg-server
 xorg-xbacklight
 xorg-xinit
+xorg-xsetroot
 zathura-pdf-mupdf
 zsh
