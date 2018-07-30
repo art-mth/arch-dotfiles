@@ -43,9 +43,6 @@ if has('mouse')
   set mouse=a
 endif
 
-" Enable syntax highlighting.
-syntax on
-
 " Enable file type detection.
 " Use the default filetype settings, so that mail gets 'tw' set to 72,
 " 'cindent' is on in C files, etc.
