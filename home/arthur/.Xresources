@@ -5,13 +5,23 @@
 
 # List perl extensions to load.
 URxvt.perl-ext:
-URxvt.perl-ext-common: keyboard-select,selection-to-clipboard
+# keyboard-select: Makes it possible to use the keyboard to select text in
+# scrollback buffer with vim like features.
+# selection-to-clipboard: Any mouse selection is automatically copied to
+# the clipboard.
+# matcher: Makes hyperlinks clickable.
+URxvt.perl-ext-common: keyboard-select,selection-to-clipboard,matcher
 
 # keyboard-select
-# Can be used to copy text from the console with vim like features.
 # M = Alt
 URxvt.keysym.M-s: perl:keyboard-select:activate
 URxvt.keysym.M-r: perl:keyboard-select:search
+
+# matcher
+# Define the browser used to open clicked hyperlinks.
+URxvt.url-launcher: chromium
+# Define "left-click" as button which opens hyperlinks.
+URxvt.matcher.button: 1
 
 # Disable iso input key combination.
 URxvt*iso14755: False
