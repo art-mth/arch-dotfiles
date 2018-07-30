@@ -25,11 +25,15 @@ URxvt.matcher.button: 1
 
 # Disable iso input key combination.
 URxvt*iso14755: False
-
-# Set a nicer font.
-URxvt.font: xft:Fira Mono:style=Regular:size=13
 # Disable the scroll bar.
 URxvt.scrollBar: false
+# Set the size of the scrollback buffer.
+URxvt.saveLines: 8192
+
+# Set a nicer font
+URxvt.font: xft:Fira Mono:style=Regular:size=13
+# Reduce the space between letters to improve rendering.
+URxvt.letterSpace: -1
 
 # Set some nice colors.
 URxvt*background: #101218
@@ -53,3 +57,4 @@ URxvt*color12: #97bbf7
 URxvt*color13: #c0b7f9
 URxvt*color14: #97e0ff
 URxvt*color15: #ffffff
+
