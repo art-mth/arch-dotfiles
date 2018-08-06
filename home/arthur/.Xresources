@@ -31,7 +31,7 @@ URxvt.scrollBar: false
 URxvt.saveLines: 8192
 
 ! Set a nicer font
-URxvt.font: xft:Fira Mono:style=Regular:size=13
+URxvt.font: xft:Fira Mono:style=Regular:size=14
 ! Reduce the space between letters to improve rendering.
 URxvt.letterSpace: -1
 
