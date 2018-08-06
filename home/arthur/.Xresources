@@ -1,41 +1,41 @@
-# ~/.Xresources
-# Used for setting configuration parameters for X client applications.
+! ~/.Xresources
+! Used for setting configuration parameters for X client applications.
 
-#URxvt
+! URxvt
 
-# List perl extensions to load.
+! List perl extensions to load.
 URxvt.perl-ext:
-# keyboard-select: Makes it possible to use the keyboard to select text in
-# scrollback buffer with vim like features.
-# selection-to-clipboard: Any mouse selection is automatically copied to
-# the clipboard.
-# matcher: Makes hyperlinks clickable.
+! keyboard-select: Makes it possible to use the keyboard to select text in
+! scrollback buffer with vim like features.
+! selection-to-clipboard: Any mouse selection is automatically copied to
+! the clipboard.
+! matcher: Makes hyperlinks clickable.
 URxvt.perl-ext-common: keyboard-select,selection-to-clipboard,matcher
 
-# keyboard-select
-# M = Alt
+! keyboard-select
+! M = Alt
 URxvt.keysym.M-s: perl:keyboard-select:activate
 URxvt.keysym.M-r: perl:keyboard-select:search
 
-# matcher
-# Define the browser used to open clicked hyperlinks.
+! matcher
+! Define the browser used to open clicked hyperlinks.
 URxvt.url-launcher: chromium
-# Define "left-click" as button which opens hyperlinks.
+! Define "left-click" as button which opens hyperlinks.
 URxvt.matcher.button: 1
 
-# Disable iso input key combination.
+! Disable iso input key combination.
 URxvt*iso14755: False
-# Disable the scroll bar.
+! Disable the scroll bar.
 URxvt.scrollBar: false
-# Set the size of the scrollback buffer.
+! Set the size of the scrollback buffer.
 URxvt.saveLines: 8192
 
-# Set a nicer font
+! Set a nicer font
 URxvt.font: xft:Fira Mono:style=Regular:size=13
-# Reduce the space between letters to improve rendering.
+! Reduce the space between letters to improve rendering.
 URxvt.letterSpace: -1
 
-# Set some nice colors.
+! Set some nice colors.
 URxvt*background: #101218
 URxvt*foreground: #d1d4e0
 URxvt*cursorColor: #d1d4e0
