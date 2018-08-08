@@ -1,6 +1,10 @@
 alsa-utils
 arc-gtk-theme
+autoconf
+automake
 bash
+binutils
+bison
 bzip2
 chromium
 coreutils
@@ -14,7 +18,9 @@ fakeroot
 file
 filesystem
 findutils
+flex
 gawk
+gcc
 gcc-libs
 gettext
 ghostscript
@@ -37,6 +43,8 @@ licenses
 linux
 logrotate
 lvm2
+m4
+make
 man-db
 man-pages
 mdadm
@@ -48,9 +56,11 @@ otf-font-awesome
 pacman
 pacman-contrib
 parted
+patch
 pciutils
 pcmciautils
 perl
+pkgconf
 procps-ng
 psmisc
 pulseaudio
@@ -73,6 +83,7 @@ urxvt-perls
 usbutils
 util-linux
 vi
+wget
 which
 wpa_supplicant
 xf86-video-intel
