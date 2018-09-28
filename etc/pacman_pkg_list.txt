@@ -1,5 +1,6 @@
 alsa-utils
 arc-gtk-theme
+atom
 autoconf
 automake
 bash
@@ -64,6 +65,7 @@ pkgconf
 procps-ng
 psmisc
 pulseaudio
+python
 reiserfsprogs
 rxvt-unicode
 s-nail
