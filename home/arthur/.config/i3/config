@@ -89,8 +89,11 @@ bindsym $mod+Return exec /usr/bin/urxvt
 # Launch chromium.
 bindsym $mod+p exec --no-startup-id chromium
 
+# Launch atom text editor.
+bindsym $mod+bracketleft exec --no-startup-id atom
+
 # Launch zathura pdf viewer.
-bindsym $mod+bracketleft exec --no-startup-id zathura
+bindsym $mod+bracketright exec --no-startup-id zathura
 
 #################################### i3bar #####################################
 
