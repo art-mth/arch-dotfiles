@@ -1,6 +1,6 @@
 " ~/.vimrc
 
-" Use Vim settings, rather than Vi settings (much better!).
+" Use Vim settings, rather than Vi settings.
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
@@ -14,6 +14,9 @@ set wildmenu		" display completion matches in a status line
 
 set ttimeout		" time out for key codes
 set ttimeoutlen=100	" wait up to 100ms after Esc for special key
+
+" Enable syntax highlighting
+syntax on
 
 " Show a few lines of context around the cursor.
 set scrolloff=5
